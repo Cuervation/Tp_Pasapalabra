@@ -1,0 +1,13 @@
+{
+  "type": "module",
+  "name": "tp_pasapalabra",
+  "version": "1.0.0",
+  "description": "Juego de Pasapalabra",
+  "main": "Main.js",
+
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
