@@ -1,13 +1,21 @@
 {
   "type": "module",
   "name": "tp_pasapalabra",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "Juego de Pasapalabra",
-  "main": "Main.js",
-
+  "main": "src/Main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "servidor": "nodemon src/ruteo/servidor.js",
+    "comenzar": "node src/Main.js",
+    "test": "mocha --recursive"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "mongodb": "^4.10.0",
+    "prompt": "^1.3.0",
+    "prompt-sync": "^4.2.0"
+  }
 }

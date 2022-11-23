@@ -2,6 +2,13 @@
 Trábajo Práctico TP2 - Pasapalabra
 
 
+Grupo 3
+integrantes:
+Negretti Dietrich Ignacio: ignacionegretti@gmail.com
+Celestino Hernán : Checelesti@gmail.com
+Masyk Lopez Juan Pablo : juanpablomasyk@gmail.com
+Zelazny Matias Ezequiel : matiaszelazny99@gmail.com
+
 Pasapalabra-rosco
 Entidades potenciales:
 “Jugador(nombre, puntaje0)”
@@ -13,31 +20,14 @@ Ranking(jugador[])
 
 
 Caso de uso 1: Registro del jugador
-El sistema carga, en base a la edad, el rosco correspondiente
-El sistema muestra la primer pregunta
+El sistema carga, valida nombre y edad
 
-Caso de uso 2: Ingreso de respuesta correcta
+Caso de uso 2: Pedido de consgina
+El sistema devuelve siguente la pregunta disponible a contestar
 
-El jugador ingresa la respuesta correcta
-El sistema indica que la respuesta es correcta
-El sistema actualiza el puntaje
-El sistema guarda el estado de la pregunta
-El sistema pasa a la siguiente pregunta
+Caso de uso 3: Proposicion de respuesta 
+El sistema recibe la respuesta y la evalua
 
-Caso de uso 3: Ingreso de respuesta incorrecta
-
-El jugador ingresa la respuesta incorrecta
-El sistema indica que la respuesta es incorrecta y da la respuesta correcta
-El sistema guarda el estado de la pregunta
-El sistema pasa a la siguiente pregunta
-
-Caso de uso 4: Ingreso de pasapalabra
-
-El jugador ingresa “pasapalabra”
-El sistema pasa a la siguiente pregunta
-
-Caso de uso 5: Fin de juego
-
-El jugador contestó todas las preguntas
-Se muestra el puntaje
+Caso de uso 4: Estado de juego
+consultar el puntaje
 
