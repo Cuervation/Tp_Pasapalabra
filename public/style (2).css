@@ -1,0 +1,16 @@
+.botonazo {
+    font-size: 50px !important;
+    height: 100px;        
+    width: 300px;   
+    background: linear-gradient(to right top, #016bd6, #257cde, #3e8de5, #559eeb, #6caef0); 
+    font-family: 'Patrick Hand', cursive;
+}    
+
+
+.botonazo-small {
+    font-size: 30px !important;
+    height: 70px;        
+    width: 200px;   
+    background: linear-gradient(to right top, #016bd6, #257cde, #3e8de5, #559eeb, #6caef0); 
+    font-family: 'Patrick Hand', cursive;
+} 
